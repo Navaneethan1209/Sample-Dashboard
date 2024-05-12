@@ -1,0 +1,543 @@
+body {
+    background-color: rgb(1, 17, 27);
+}
+.NavBar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: antiquewhite;
+    border-bottom: 1px solid lightcyan;
+    position: relative;
+}
+#logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.Upper {
+    color: whitesmoke;
+    font-family: sans-serif;
+    padding-left: 5px;
+}
+.Circuit {
+    padding-left: 5px;
+    color: aqua;
+    font-family: sans-serif;
+}
+.folder a {
+     text-decoration: none;
+     color:grey;
+     font-family: sans-serif;
+     position: relative;
+     left: 250px;
+}
+#a1{
+     color: aqua;
+     border-bottom: 3px solid aqua;
+     padding-bottom: 20px;
+}
+#a2{
+    padding-left: 25px;
+}
+#a3{
+    padding-left: 25px;
+}
+.number {
+    padding-left: 380px;
+    color: white;
+}
+.rapid {
+    padding-left: 20px;
+    color: aqua;
+    cursor: pointer;
+}
+#login {
+    margin-left: 25px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-style: none;
+    background-color: rgb(1, 25, 40);
+    border-radius: 15px;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+}
+#login-logo {
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    border: 1px solid white;
+    border-style: none;
+    padding-left: 15px;
+    font-family: sans-serif;
+
+}
+.grid1 {
+    height: 695px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: rgb(1, 25, 40);
+}
+.subgrid {
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    height: 50px;
+    position: relative;
+    align-items: center;
+    top: 10px;
+    border-bottom: 1px solid rgb(110, 110, 110);
+    padding-left: 10px;
+    font-size: small;
+   
+}
+#p2 {
+    padding-left: 2px;
+    color: rgb(9, 169, 9);
+}
+.nifty2 {
+    position: relative;
+    top: -15px;
+}
+.nifty {
+    padding-left: 10px;
+    
+}
+.banknifty2 {
+    position: relative;
+    top: -15px;
+}
+.banknifty {
+    margin-left: 50px;
+}
+.banknifty #p2 {
+    color: red;
+}
+.searchbar {
+    position: relative;
+    top: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 13px;
+    margin-right: 10px;
+}
+.searchbar-1 input {
+    height: 30px;
+    width: 260px;
+    background-color: rgb(1, 17, 27);
+    border-style: none;
+    padding-left: 5px;
+    padding-right: 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    text-align: start;
+    margin-left: 14px;
+    color: white;
+}
+.stock1 {
+    display: flex;
+    border-bottom: 1px solid grey;
+    height: 40px;
+    position: relative;
+    top: 21px;
+    align-items: center;
+    color: aqua;
+    font-size: small;
+    font-family: sans-serif;
+}
+#sun1 {
+    padding-left: 25px;
+    color: rgb(32, 173, 32);
+}
+#sun2 {
+    padding-left: 85px;
+    color: rgb(130, 125, 125);
+}
+#sun3 {
+    padding-left: 18px;
+    color: rgb(130, 125, 125);
+}
+#sun4 {
+    padding-left: 18px;
+    color: rgb(32, 173, 32);
+}
+#sun5 {
+    padding-left: 18px;
+    color: rgb(32, 173, 32);
+}
+.stock2 {
+    display: flex;
+    border-bottom: 1px solid grey;
+    height: 40px;
+    position: relative;
+    top: 21px;
+    align-items: center;
+    color: aqua;
+    font-size: small;
+    font-family: sans-serif;
+}
+#tvs1 {
+    padding-left: 25px;
+    color: rgb(197, 27, 27);
+}
+#tvs2 {
+    padding-left: 85px;
+    color: rgb(130, 125, 125);
+}
+#tvs3 {
+    padding-left: 18px;
+    color: rgb(130, 125, 125);
+}
+#tvs4 {
+    padding-left: 19px;
+    color: rgb(197, 27, 27);
+}
+#tvs5 {
+    padding-left: 18px;
+    color: rgb(197, 27, 27);
+}
+.stock3 {
+    display: flex;
+    border-bottom: 1px solid grey;
+    height: 40px;
+    position: relative;
+    top: 21px;
+    align-items: center;
+    color: aqua;
+    font-size: small;
+    font-family: sans-serif;
+}
+#west1 {
+    padding-left: 25px;
+    color: rgb(197, 27, 27);
+}
+#west2 {
+    padding-left: 52px;
+    color: rgb(130, 125, 125);
+}
+#west3 {
+    padding-left: 18px;
+    color: rgb(130, 125, 125);
+}
+#west4 {
+    padding-left: 19px;
+    color: rgb(197, 27, 27);
+}
+#west5 {
+    padding-left: 18px;
+    color: rgb(197, 27, 27);
+}
+.stock4 {
+    display: flex;
+    border-bottom: 1px solid grey;
+    height: 40px;
+    position: relative;
+    top: 21px;
+    align-items: center;
+    color: aqua;
+    font-size: small;
+    font-family: sans-serif;
+}
+#tcs1 {
+    padding-left: 25px;
+    color: rgb(32, 173, 32);
+}
+#tcs2 {
+    padding-left: 81px;
+    color: rgb(130, 125, 125);
+}
+#tcs3 {
+    padding-left: 18px;
+    color: rgb(130, 125, 125);
+}
+#tcs4 {
+    padding-left: 18px;
+    color: rgb(32, 173, 32);
+}
+#tcs5 {
+    padding-left: 18px;
+    color: rgb(32, 173, 32);
+}
+.stockmarket {
+    background-color: rgb(1, 17, 27);
+    display: flex;
+    border-bottom: 1px solid grey;
+    height: 40px;
+    position: relative;
+    top: 21px;
+    align-items: center;
+    color: aqua;
+    font-size: small;
+    font-family: sans-serif;
+}
+#wipro1 {
+    padding-left: 28px;
+    color: rgb(197, 27, 27);    
+}
+.market2 {
+    padding-left: 68px;
+}
+.market3 {
+    padding-left: 10px;
+}
+#buybtn {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(32, 173, 32);
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-size: smaller;
+}
+#sellbtn {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(197, 27, 27); 
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-size: smaller;
+}
+#wipro2 {
+    color: aqua;
+    font-size: 14px;
+    padding-left: 10px;
+}
+#wipro3 {
+    color:  rgb(197, 27, 27);
+    font-size: 14px;
+    padding-left: 10px;
+}
+.grid2 {
+    border-bottom: 1px solid rgb(99, 99, 99);
+    height: 350px;
+    width: 1000px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.message {
+    color: white;
+}
+.openingaccount {
+    display: flex;
+    padding-bottom: 10px;
+}
+.accbal {
+    height: 90px;
+    width: 450px;
+    display: flex;
+    background-color: rgb(1, 25, 40);
+    border-radius: 15px;
+}
+.accbal1 {
+    margin-left: 25px;
+    height: 90px;
+    width: 450px;
+    display: flex;
+    background-color: rgb(1, 25, 40);
+    border-radius: 15px;
+}
+.balicon{
+    position: relative;
+    left: 40px;
+    top: 25px;
+    color: rgb(150, 91, 206);
+    font-size: xx-large;
+}
+.acctext {
+    font-size: small;
+    padding-left: 80px;
+    position: relative;
+    top: 10px;
+}
+#openbal {
+    color: grey;
+    padding-bottom: -12px;
+}
+#openbalnum {
+    font-size: 16px;
+    color: white; 
+}
+#openbalicon {
+    color: rgb(235, 235, 60);
+}
+.account {
+    display: flex;
+    height: 180px;
+    width: 927px;
+    border-radius: 15px;
+    background-color: rgb(1, 25, 40);
+}
+#accnum {
+    color: grey;
+    font-size: small;
+    
+}
+#accno {
+    color: white;
+    font-size: x-large;
+    position: relative;
+    top: -15px;
+}
+.accountdel {
+    margin-left: 15px;
+    margin-top: 10px;
+    border-right: 1px solid grey;
+    height: 150px;
+    width: 200px;
+}
+.accountdel input {
+    background:linear-gradient(rgb(24, 24, 24),rgb(70, 65, 65),rgb(94, 92, 92)) ;
+    color: aqua;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    border-style: none;
+}
+.status {
+    display: flex;
+    border-bottom: 1px solid grey;
+    height: 80px;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.statusa {
+    display: flex;
+    height: 80px;
+    width: 700px;   
+}
+.status1 {
+    margin-left: 40px;
+}
+.status2 {
+    margin-left: 120px;
+}
+.status3 {
+    margin-left: 120px;
+}
+.status4 {
+    margin-left: 120px;
+}
+.status5 {
+    margin-left: 50px;
+}
+.status6 {
+    margin-left: 73px;
+}
+.status7 {
+    margin-left: 82px;
+}
+.status8 {
+    margin-left: 98px;
+}
+#statext {
+    font-size: small;
+    color: grey;
+}
+#staact {
+    font-size: small;
+    color: rgb(69, 199, 69);
+}
+#plantext {
+    font-size: small;
+    color: grey;
+}
+#plan {
+    font-size: small;
+    color: white;
+}
+#position {
+    font-size: small;
+    color: grey;
+}
+#close {
+    font-size: small;
+    color: white;
+}
+.grid2a {
+    height: 250px;
+    width: 920px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.tradetext {
+    color: white;
+}
+.profitbanner1{
+    display: flex;
+}
+.profitbanner1a {
+    height: 120px;
+    width: 450px;
+    background-color: rgb(1, 25, 40);
+    border-radius: 15px;
+}
+.profitbanner1b {
+    margin-left: 25px;
+    height: 120px;
+    width: 450px;
+    background-color: rgb(1, 25, 40);
+    border-radius: 15px;
+}
+.profitbanner2{
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+.profitbanner2a {
+    height: 120px;
+    width: 450px;
+    background-color: rgb(1, 25, 40);
+    border-radius: 15px;
+}
+.profitbanner2b {
+    margin-left: 25px;
+    height: 120px;
+    width: 450px;
+    background-color: rgb(1, 25, 40);
+    border-radius: 15px;
+}
+.profit1 {
+    display: flex;
+    color: white;
+    position: relative;
+    align-items: center;
+}
+.profit1 input {
+    border-style: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    background:linear-gradient(rgb(2, 51, 81),rgb(1, 36, 57));
+    color:aqua;
+}
+.profit1 p {
+    margin-left: 15px;
+    font-size: small;
+    color: grey;
+}
+.profit2{
+    position: relative;
+    top: -20px;
+    color: aliceblue;
+    font-size: small;
+    margin-left: 14px;
+}
+.profit1 i {
+    color: aqua;
+}
+
